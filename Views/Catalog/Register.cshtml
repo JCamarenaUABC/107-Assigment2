@@ -1,0 +1,56 @@
+<h2>Register Property</h2>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="txtPrice">Price</label>
+                    <input type="number" id="txtPrice" class="control form-control" placeholder="Price" >
+                </div>
+
+                <div class="form-group">
+                    <label for="txtTitle">Title</label>
+                    <input type="text" id="txtTitle" class="control form-control" placeholder="Title">
+                </div>
+
+                <div class="form-group">
+                    <label for="txtImageURL">Image URL</label>
+                    <input type="url" id="txtImageURL" class="control form-control" placeholder="Image URL">
+                </div>
+
+                <div class="form-group">
+                    <label for="txtBeds">Beds</label>
+                    <input type="number" id="txtBeds" class="control form-control" placeholder="Beds">
+                </div>
+
+                <div class="form-group" >        
+                    <label for="txtBaths">Baths</label>
+                    <input type="number" id="txtBaths" class="control form-control" placeholder="Baths">
+                </div>
+
+                <div class="form-group" >        
+                    <label for="txtArea">Area</label>
+                    <input type="text" id="txtArea" class="control form-control" placeholder="Area">
+                </div>
+
+                <div class="form-group" >        
+                    <label for="txtDescription">Area</label>
+                    <input type="text" id="txtDescription" class="control form-control" placeholder="Description">
+                </div>
+
+                <div class="form-group" >        
+                    <label >Parking Include</label>
+                    
+                    
+                    <input type="radio" id="rbRadio_0" value="true" class="control">
+                    <label for="radio_0">Yes</label>
+
+                    <input type="radio" id="rbRadio_1" value="false" class="control">
+                    <label for="radio_1">No</label>
+
+                </div>
+
+                <button id="btnSave" class="btn btn-info form-control">Save</button>    
+        </form>
+
+@section Scripts{
+    <script src="/js/register.js"></script>
+}
